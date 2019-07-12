@@ -1,0 +1,218 @@
+Date and Time : 07/12/19 11:25:26
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR(ORCAP-1628): Possible pin type conflict X1,3  Output Connected to Power
+                    SCHEMATIC1, PAGE1  (297.18, 33.02) 
+ERROR(ORCAP-1628): Possible pin type conflict U1,OUT  Output Connected to Output
+                    SCHEMATIC1, PAGE1  (350.52, 33.02) 
+ERROR(ORCAP-1628): Possible pin type conflict U1,OUT  Output Connected to Power
+                    SCHEMATIC1, PAGE1  (350.52, 33.02) 
+ERROR(ORCAP-1628): Possible pin type conflict U5,OUT  Output Connected to Output
+                    SCHEMATIC1, PAGE1  (220.98, 22.86) 
+ERROR(ORCAP-1628): Possible pin type conflict U5,OUT  Output Connected to Power
+                    SCHEMATIC1, PAGE1  (220.98, 22.86) 
+WARNING(ORCAP-1831): Unconnected pin POWER,1 
+                    SCHEMATIC1, PAGE1  (259.08, 83.82) 
+WARNING(ORCAP-1831): Unconnected pin U2,BYPASS 
+                    SCHEMATIC1, PAGE1  (215.90, 71.12) 
+WARNING(ORCAP-1831): Unconnected pin U3,(AIN0/INT1)PD1 
+                    SCHEMATIC1, PAGE1  (187.96, 226.06) 
+WARNING(ORCAP-1831): Unconnected pin U3,(RTS/AIN5/INT6)PD6 
+                    SCHEMATIC1, PAGE1  (187.96, 213.36) 
+WARNING(ORCAP-1831): Unconnected pin U3,(AIN2/PCINT11)PC2 
+                    SCHEMATIC1, PAGE1  (187.96, 205.74) 
+WARNING(ORCAP-1831): Unconnected pin U3,(PCINT10)PC4 
+                    SCHEMATIC1, PAGE1  (187.96, 203.20) 
+WARNING(ORCAP-1831): Unconnected pin U3,(PCINT9/OC1B)PC5 
+                    SCHEMATIC1, PAGE1  (187.96, 200.66) 
+WARNING(ORCAP-1831): Unconnected pin U3,(OC1A/PCINT8)PC6 
+                    SCHEMATIC1, PAGE1  (187.96, 198.12) 
+WARNING(ORCAP-1831): Unconnected pin U3,(INT4/ICP1/CLK0)PC7 
+                    SCHEMATIC1, PAGE1  (187.96, 195.58) 
+WARNING(ORCAP-1831): Unconnected pin U3,(SS/PCINT0)PB0 
+                    SCHEMATIC1, PAGE1  (187.96, 190.50) 
+WARNING(ORCAP-1831): Unconnected pin U3,(OC0B/INT0)PD0 
+                    SCHEMATIC1, PAGE1  (187.96, 228.60) 
+WARNING(ORCAP-1831): Unconnected pin D1,1 
+                    SCHEMATIC1, PAGE1  (398.78, 175.26) 
+WARNING(ORCAP-1831): Unconnected pin D1,2 
+                    SCHEMATIC1, PAGE1  (398.78, 187.96) 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections +3V3 
+                    SCHEMATIC1, PAGE1  (259.08, 91.44) 
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /YELLOW/1  Nets: 'RXLED' and 'TXLED'. 
+                    SCHEMATIC1, PAGE1  (205.74, 233.68) 
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+ERROR(ORCAP-1616): Reference is invalid for this part RN1D 
+                    SCHEMATIC1, PAGE1  (241.30, 147.32) 
+ERROR(ORCAP-1616): Reference is invalid for this part POWER 
+                    SCHEMATIC1, PAGE1  (266.70, 81.28) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN3D 
+                    SCHEMATIC1, PAGE1  (71.12, 193.04) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN2B 
+                    SCHEMATIC1, PAGE1  (228.60, 231.14) 
+ERROR(ORCAP-1616): Reference is invalid for this part IOH 
+                    SCHEMATIC1, PAGE1  (375.92, 139.70) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN1C 
+                    SCHEMATIC1, PAGE1  (91.44, 157.48) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN4B 
+                    SCHEMATIC1, PAGE1  (289.56, 238.76) 
+ERROR(ORCAP-1616): Reference is invalid for this part 3X2 M 
+                    SCHEMATIC1, PAGE1  (71.12, 147.32) 
+ERROR(ORCAP-1616): Reference is invalid for this part 3X2 M 
+                    SCHEMATIC1, PAGE1  (71.12, 147.32) 
+ERROR(ORCAP-1616): Reference is invalid for this part ICSP 
+                    SCHEMATIC1, PAGE1  (297.18, 129.54) 
+ERROR(ORCAP-1616): Reference is invalid for this part RESET-FN 
+                    SCHEMATIC1, PAGE1  (226.06, 139.70) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN3B 
+                    SCHEMATIC1, PAGE1  (398.78, 223.52) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN1B 
+                    SCHEMATIC1, PAGE1  (111.76, 38.10) 
+ERROR(ORCAP-1616): Reference is invalid for this part AD 
+                    SCHEMATIC1, PAGE1  (375.92, 172.72) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN1A 
+                    SCHEMATIC1, PAGE1  (111.76, 20.32) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN3A 
+                    SCHEMATIC1, PAGE1  (71.12, 185.42) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN2C 
+                    SCHEMATIC1, PAGE1  (228.60, 220.98) 
+ERROR(ORCAP-1616): Reference is invalid for this part YELLOW 
+                    SCHEMATIC1, PAGE1  (210.82, 220.98) 
+ERROR(ORCAP-1616): Reference is invalid for this part IOL 
+                    SCHEMATIC1, PAGE1  (375.92, 195.58) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN4A 
+                    SCHEMATIC1, PAGE1  (289.56, 243.84) 
+ERROR(ORCAP-1616): Reference is invalid for this part RESET 
+                    SCHEMATIC1, PAGE1  (251.46, 119.38) 
+ERROR(ORCAP-1616): Reference is invalid for this part YELLOW 
+                    SCHEMATIC1, PAGE1  (208.28, 231.14) 
+ERROR(ORCAP-1616): Reference is invalid for this part L 
+                    SCHEMATIC1, PAGE1  (231.14, 33.02) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN4C 
+                    SCHEMATIC1, PAGE1  (327.66, 93.98) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN4D 
+                    SCHEMATIC1, PAGE1  (327.66, 86.36) 
+ERROR(ORCAP-1616): Reference is invalid for this part GREEN 
+                    SCHEMATIC1, PAGE1  (347.98, 86.36) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN3C 
+                    SCHEMATIC1, PAGE1  (398.78, 231.14) 
+ERROR(ORCAP-1616): Reference is invalid for this part RN2A 
+                    SCHEMATIC1, PAGE1  (231.14, 17.78) 
+ERROR(ORCAP-1621): This reference has already been assigned to a different package type. D1 
+                    SCHEMATIC1, PAGE1  (304.80, 35.56) 
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. YELLOW 
+                    SCHEMATIC1, PAGE1  (208.28, 231.14) 
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. D1 
+                    SCHEMATIC1, PAGE1  (396.24, 177.80) 
+
+Report for Duplicate References
+ERROR(ORCAP-1631): Duplicate reference YELLOW 
+                    SCHEMATIC1, PAGE1  (208.28, 231.14) 
+ERROR(ORCAP-1631): Duplicate reference D1 
+                    SCHEMATIC1, PAGE1  (396.24, 177.80) 
+
+--------------------------------------------------
+Checking Entire Design: ARDUINO_UNO 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+#1 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C2: SCHEMATIC1, PAGE1 (363.22, 45.72).
+#2 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U3: SCHEMATIC1, PAGE1 (134.62, 167.64).
+#3 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D3: SCHEMATIC1, PAGE1 (101.60, 157.48).
+#4 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R1: SCHEMATIC1, PAGE1 (116.84, 182.88).
+#5 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C3: SCHEMATIC1, PAGE1 (218.44, 66.04).
+#6 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U5A: SCHEMATIC1, PAGE1 (134.62, 33.02).
+#7 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U5B: SCHEMATIC1, PAGE1 (203.20, 17.78).
+#8 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C4: SCHEMATIC1, PAGE1 (345.44, 137.16).
+#9 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance IOL: SCHEMATIC1, PAGE1 (375.92, 195.58).
+#10 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R2: SCHEMATIC1, PAGE1 (254.00, 167.64).
+#11 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance AD: SCHEMATIC1, PAGE1 (375.92, 172.72).
+#12 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C5: SCHEMATIC1, PAGE1 (218.44, 149.86).
+#13 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C6: SCHEMATIC1, PAGE1 (256.54, 193.04).
+#14 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance YELLOW: SCHEMATIC1, PAGE1 (210.82, 220.98).
+#15 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance YELLOW: SCHEMATIC1, PAGE1 (208.28, 231.14).
+#16 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C7: SCHEMATIC1, PAGE1 (68.58, 226.06).
+#17 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C8: SCHEMATIC1, PAGE1 (76.20, 236.22).
+#18 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance ZU4: SCHEMATIC1, PAGE1 (281.94, 154.94).
+#19 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance L1: SCHEMATIC1, PAGE1 (48.26, 231.14).
+#20 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C9: SCHEMATIC1, PAGE1 (101.60, 190.50).
+#21 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance 3X2 M: SCHEMATIC1, PAGE1 (71.12, 147.32).
+#22 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance ICSP: SCHEMATIC1, PAGE1 (297.18, 129.54).
+#23 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance L: SCHEMATIC1, PAGE1 (231.14, 33.02).
+#24 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RESET-FN: SCHEMATIC1, PAGE1 (226.06, 139.70).
+#25 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RESET: SCHEMATIC1, PAGE1 (251.46, 119.38).
+#26 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RN4A: SCHEMATIC1, PAGE1 (289.56, 243.84).
+#27 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RN4B: SCHEMATIC1, PAGE1 (289.56, 238.76).
+#28 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RN3A: SCHEMATIC1, PAGE1 (71.12, 185.42).
+#29 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance JP2: SCHEMATIC1, PAGE1 (198.12, 132.08).
+#30 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Z1: SCHEMATIC1, PAGE1 (50.80, 203.20).
+#31 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance PC1: SCHEMATIC1, PAGE1 (314.96, 43.18).
+#32 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RN4C: SCHEMATIC1, PAGE1 (327.66, 93.98).
+#33 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RN3B: SCHEMATIC1, PAGE1 (398.78, 223.52).
+#34 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Z2: SCHEMATIC1, PAGE1 (60.96, 203.20).
+#35 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RN2A: SCHEMATIC1, PAGE1 (231.14, 17.78).
+#36 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Y1: SCHEMATIC1, PAGE1 (109.22, 182.88).
+#37 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance PC2: SCHEMATIC1, PAGE1 (350.52, 43.18).
+#38 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance X1: SCHEMATIC1, PAGE1 (269.24, 27.94).
+#39 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RN4D: SCHEMATIC1, PAGE1 (327.66, 86.36).
+#40 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RN3C: SCHEMATIC1, PAGE1 (398.78, 231.14).
+#41 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RN2B: SCHEMATIC1, PAGE1 (228.60, 231.14).
+#42 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RN1A: SCHEMATIC1, PAGE1 (111.76, 20.32).
+#43 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance SW3: SCHEMATIC1, PAGE1 (109.22, 226.06).
+#44 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RN2C: SCHEMATIC1, PAGE1 (228.60, 220.98).
+#45 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RN3D: SCHEMATIC1, PAGE1 (71.12, 193.04).
+#46 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance F1: SCHEMATIC1, PAGE1 (55.88, 175.26).
+#47 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RN1B: SCHEMATIC1, PAGE1 (111.76, 38.10).
+#48 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RN1C: SCHEMATIC1, PAGE1 (91.44, 157.48).
+#49 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U1: SCHEMATIC1, PAGE1 (330.20, 30.48).
+#50 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance IOH: SCHEMATIC1, PAGE1 (375.92, 139.70).
+#51 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RN1D: SCHEMATIC1, PAGE1 (241.30, 147.32).
+#52 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R12: SCHEMATIC1, PAGE1 (203.20, 195.58).
+#53 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D1: SCHEMATIC1, PAGE1 (396.24, 177.80).
+#54 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D1: SCHEMATIC1, PAGE1 (304.80, 35.56).
+#55 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance GREEN: SCHEMATIC1, PAGE1 (347.98, 86.36).
+#56 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance POWER: SCHEMATIC1, PAGE1 (266.70, 81.28).
+#57 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C11: SCHEMATIC1, PAGE1 (101.60, 177.80).
+#58 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D2: SCHEMATIC1, PAGE1 (254.00, 147.32).
+#59 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C1: SCHEMATIC1, PAGE1 (81.28, 40.64).
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? +5V  VCC  GND  +5V  6  5  3  D+  7  RD-  1  IO1  2  CMP  UGND  4  8  D-  VIN  L13  XUSB  RESET  M8RXD  RD+  IO0  M8TXD  
+                    SCHEMATIC1, PAGE1  (342.90, 96.52) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? CSTCE16M0V53-R0,2  2  +5V
+                    SCHEMATIC1, PAGE1  (231.14, 172.72) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,GND  GND  +5V
+                    SCHEMATIC1, PAGE1  (170.18, 71.12) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
